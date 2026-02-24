@@ -1,0 +1,5 @@
+rouge==1.0.1
+fuzzywuzzy==0.18.0
+jieba==0.42.1
+# latest dataset no longer support longbench_v1
+datasets==3.2.0

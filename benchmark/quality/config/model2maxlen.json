@@ -1,0 +1,5 @@
+{
+    "Llama-3.1-8B-Instruct": 131072,
+    "Qwen3-8B": 40960,
+    "Mistral-7B-Instruct-v0.2": 32768
+}

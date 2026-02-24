@@ -1,0 +1,14 @@
+# core
+torch==2.10.0
+transformers==4.53.0
+kernels==0.12.1
+einops
+hf-transfer
+# visualization
+matplotlib
+pandas
+seaborn
+# dev
+pytest
+pre-commit
+# flash-attn  # NOTE: you might need to manually install after installing torch with --no-build-isolation

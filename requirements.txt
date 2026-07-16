@@ -4,6 +4,7 @@ transformers==4.53.0
 kernels==0.12.1
 einops
 hf-transfer
+accelerate
 # visualization
 matplotlib
 pandas

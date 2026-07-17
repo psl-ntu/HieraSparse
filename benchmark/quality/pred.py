@@ -238,13 +238,13 @@ if __name__ == "__main__":
         if data_args.fast_eval:
             print("Using fast evaluation datasets!")
             datasets = [
-                "triviaqa",
-                "passage_retrieval_en",
-                "hotpotqa",
-                "multifieldqa_en",
+                # "triviaqa",
+                # "passage_retrieval_en",
+                # "hotpotqa",
+                # "multifieldqa_en",
                 "2wikimqa",
-                "trec",
-                "multi_news",
+                # "trec",
+                # "multi_news",
             ]
             output_dir_prefix = "pred_fast"
         else:

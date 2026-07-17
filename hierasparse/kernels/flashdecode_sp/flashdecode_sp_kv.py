@@ -47,6 +47,24 @@ BEST_CONFIGS = {
             "use_movmatrix": False,
         },
     },
+    "NVIDIA A100 80GB PCIe": {
+        (1, 32, 8): {
+            "block_N": 32,
+            "block_H": 8,
+            "num_split": 16,
+            "num_stages": 3,
+            "threads": 32,
+            "use_movmatrix": True,
+        },
+        (8, 32, 8): {
+            "block_N": 32,
+            "block_H": 8,
+            "num_split": 8,
+            "num_stages": 3,
+            "threads": 32,
+            "use_movmatrix": True,
+        },
+    },
 }
 
 

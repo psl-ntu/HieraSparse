@@ -21,6 +21,10 @@ BEST_CONFIGS = {
         (8, 32, 8, True): {"block_M": 128, "block_N": 64, "threads": 128},
         (1, 32, 8, True): {"block_M": 128, "block_N": 64, "threads": 128},
     },
+    "NVIDIA A100 80GB PCIe": {
+        (1, 32, 8, True): {"block_M": 128, "block_N": 64, "threads": 128},
+        (8, 32, 8, True): {"block_M": 128, "block_N": 64, "threads": 128},
+    },
 }
 
 

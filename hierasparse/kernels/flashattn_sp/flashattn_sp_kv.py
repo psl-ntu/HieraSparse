@@ -31,6 +31,10 @@ BEST_CONFIGS = {
         # FLASH_ATTENTION: 48.36 ms 181.90 TFlops 1.71x
         (1, 32, 8, True): {"block_M": 96, "block_N": 128, "threads": 128, "use_movmatrix": True},
     },
+    "NVIDIA A100 80GB PCIe": {
+        (1, 32, 8, True): {"block_M": 96, "block_N": 128, "threads": 128, "use_movmatrix": True},
+        (8, 32, 8, True): {"block_M": 96, "block_N": 128, "threads": 128, "use_movmatrix": True},
+    },
 }
 
 tune_inputs: Optional[Tuple[torch.Tensor]] = None

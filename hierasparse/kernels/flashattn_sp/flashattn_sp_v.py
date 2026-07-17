@@ -34,6 +34,10 @@ BEST_CONFIGS = {
         # FLASH_ATTENTION: 51.14 ms 171.99 TFlops 1.34x
         (1, 32, 8, True): {"block_M": 96, "block_N": 128, "threads": 128, "use_movmatrix": True},
     },
+    "NVIDIA A100 80GB PCIe": {
+        (1, 32, 8, True): {"block_M": 96, "block_N": 128, "threads": 128, "use_movmatrix": True},
+        (8, 32, 8, True): {"block_M": 96, "block_N": 128, "threads": 128, "use_movmatrix": True},
+    },
 }
 
 

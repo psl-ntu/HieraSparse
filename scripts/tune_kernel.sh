@@ -2,7 +2,7 @@
 
 export TILELANG_AUTO_TUNING_CPU_COUNTS=16
 
-batch=1
+batch=8
 
 echo "====== flashattn_sp_kv ======"
 python hierasparse/kernels/flashattn_sp/flashattn_sp_kv.py --is_causal --check --tune --batch $batch

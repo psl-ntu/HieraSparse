@@ -1868,13 +1868,13 @@ def flashattn_sp_kv(
 def main(
     args,
 ):
-    from sparse_attn.compress_method import (
+    from hierasparse.compress_method import (
         torch_block_compress_key,
         torch_block_compress_value,
         torch_compress_key,
         torch_compress_value,
     )
-    from sparse_attn.prune_method import prune_block_key, prune_block_value, prune_topk
+    from hierasparse.prune_method import prune_block_key, prune_block_value, prune_topk
 
     torch.cuda.get_device_name(0)
 

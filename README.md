@@ -1,5 +1,7 @@
 # HieraSparse
 
+[![DOI](https://zenodo.org/badge/1165504245.svg)](https://doi.org/10.5281/zenodo.21454602)
+
 **HieraSparse** is a sparse KV cache system for LLM inference that reduces memory and computation cost while preserving generation quality. It combines a hierarchical block-based memory layout with N:M structured sparse attention kernels and near-zero-overhead online compression.
 
 ---

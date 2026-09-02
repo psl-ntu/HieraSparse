@@ -83,3 +83,21 @@ scripts/          # Installation and benchmark scripts
 benchmark/        # Benchmark scripts (quality + efficiency)
 example/          # generation.py end-to-end example
 ```
+
+---
+
+## Citation
+
+If you find this work useful, please cite:
+
+```bibtex
+@misc{wang2026hierasparsehierarchicalsemistructuredsparse,
+      title={HieraSparse: Hierarchical Semi-Structured Sparse KV Attention}, 
+      author={Haoxuan Wang and Chen Wang},
+      year={2026},
+      eprint={2604.16864},
+      archivePrefix={arXiv},
+      primaryClass={cs.DC},
+      url={https://arxiv.org/abs/2604.16864}, 
+}
+```
